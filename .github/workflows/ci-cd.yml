@@ -25,7 +25,10 @@ jobs:
           pip install pandas scikit-learn
 
       - name: Run ML program
-        run: python iris_ml.py
+        run: python ML-linerregression.py
+
+      - name: Run ML program
+        run: python ploynomial_regression.py
 
       - name: Run tests
         run: python -m unittest discover
